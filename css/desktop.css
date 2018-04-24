@@ -1,0 +1,119 @@
+html,body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center ;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	overflow-x: hidden;
+	line-height: 1.5;
+	font-family: 'Magra';
+}
+
+img {
+  vertical-align: middle;
+}
+
+.v-header{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.container{
+	max-width: 960px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: auto;
+	text-align: center;
+}
+
+.fullscreen-video-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.fullscreen-video-wrap video{
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.header-overlay{
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: green;
+	z-index: 1;
+	opacity: 0.85;
+}
+
+.header-content{
+	z-index: 2;
+	font-size: 20px;
+	margin-top: 45%;
+}
+
+#anuncio {
+    margin-left: 84%;
+    height: 500px;
+    width: 336px;
+    border: 0.5;
+    position: absolute;
+}
+
+
+.footer {
+    float: left;
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+.publicidadhor {
+    position: relative;
+    float: right;
+    width: 300px;
+    top: 75px;
+    right: 25px;
+}
+
+
+
+#Titulo-caja{
+	background-color: lightblue;
+	width: 10%;
+	border-radius: 5px solid yellow;
+}
+
+.KW_progressBar {
+  width: 0%;
+  float: left;
+  height: 100%;
+  max-width: 100%;
+  background-color:orange;
+  -webkit-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+}
+
+.col-md-6 {
+	width: 25%;
+	border-radius: 4px;
+}
+
+.navbar-nav {
+    font-size: 130%;
+}
+
+#Calendario{
+
+}
