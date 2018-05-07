@@ -4,7 +4,7 @@ html,body{
 	background-position: center center ;
 	background-size: cover;
 	background-attachment: fixed;
-	margin: 0;
+	width: 100%;
 	overflow-x: hidden;
 	line-height: 1.5;
 	font-family: 'Magra';
@@ -86,12 +86,8 @@ img {
     right: 25px;
 }
 
-
-
-#Titulo-caja{
-	background-color: lightblue;
-	width: 10%;
-	border-radius: 5px solid yellow;
+.Titulos{
+	color: whitesmoke;
 }
 
 .KW_progressBar {
@@ -111,9 +107,26 @@ img {
 }
 
 .navbar-nav {
-    font-size: 130%;
+	font-size: 130%;
 }
 
-#Calendario{
+.ribbon{
+	background-color: orangered;
+	color: white;
+	width: 43%;
+	font-size: 20px;
+}
 
+.col-sm-4{
+	width: 10%;
+	margin-left: 0.5%;
+}
+
+.videos{
+	background-color: yellow;
+}
+
+#Cargar{
+	margin-left: 45%;
+    margin-top: 5%;
 }
