@@ -67,6 +67,18 @@ img {
     position: absolute;
 }
 
+
+.footer {
+    float: left;
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
 .publicidadhor {
     position: relative;
     float: right;
@@ -83,14 +95,13 @@ img {
     right: -277px;
 }
 
-
 .Titulos{
 	color: whitesmoke;
 }
 
 
 .col-md-6 {
-	width: 25%;
+	width: 27%;
 	border-radius: 4px;
 }
 
@@ -110,9 +121,35 @@ img {
 	margin-left: 0.5%;
 }
 
+.videos{
+	background-color: yellow;
+}
+
 #Cargar{
 	margin-left: 45%;
     margin-top: 5%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #0040FF;
+  width: 0%;
 }
 
 *,*:after, *:before{
@@ -158,29 +195,3 @@ img {
 	from { transform: rotate(0deg);}
 	to { transform: rotate(360deg);}
 }
-
-.videos-fotos{
-	width: 400%;
-}
-
-/* The progress container (grey background) */
-.progress-container {
-	width: 100%;
-	height: 8px;
-	background: #ccc;
-  }
-  
-  /* The progress bar (scroll indicator) */
-  .progress-bar {
-	height: 8px;
-	background: #0040FF;
-	width: 0%;
-  }
-
-  .header {
-	position: fixed;
-	top: 0;
-	z-index: 1;
-	width: 100%;
-	background-color: #f1f1f1;
-  }

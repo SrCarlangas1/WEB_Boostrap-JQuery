@@ -3,7 +3,6 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
 	 crossorigin="anonymous">
@@ -12,12 +11,16 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/desktop.css">
 	<link href='https://fonts.googleapis.com/css?family=Magra' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" href="img/atp.ico">
 	<script src="js/jquery.js"></script>
 	<title>Tennis WareHouse</title>
 </head>
 
 <body>
+	<div id="contenedor_carga">
+		<div id="carga"></div>
+	</div>
 	<header class="v-header container">
 		<div class="fullscreen-video-wrap">
 			<video src="video/video.mp4" autoplay="true" loop="true" muted></video>
@@ -43,10 +46,10 @@
 					</a>
 					<ul class="dropdown-menu">
 						<li>
-							<a href="#">Individual</a>
+							<a href="#">Hombres</a>
 						</li>
 						<li>
-							<a href="#">Dobles</a>
+							<a href="#">Mujeres</a>
 						</li>
 					</ul>
 				</li>
@@ -71,7 +74,7 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">Noticias</a>
+					<a href="Noticias.html">Noticias</a>
 				</li>
 				<li>
 					<a href="http://dimitrov-grigor.com/players/">Jugadores</a>
@@ -88,13 +91,19 @@
 						<span class="glyphicon glyphicon-log-in"></span> Login</a>
 				</li>
 			</ul>
-			<div class="KW_progressBar">
-			</div>
+
 	</nav>
+
 
 	<div class="publicidadhor">
 		<img src="img/gif.gif" alt="publicidad" id="publicidad">
 	</div>
+
+	<div class="twitter">
+		<a class="twitter-timeline" data-width="400" data-height="350" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/ATPWorldTour_ES?ref_src=twsrc%5Etfw">Tweets by ATPWorldTour_ES</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+
 
 	<div id="principal">
 		<div class="container-fluid">
@@ -180,67 +189,134 @@
 				<h3>Últimos Partidos</h3>
 			</div>
 			<div class="row videos">
-				<a href="https://www.youtube.com/watch?v=mFIOGpIQtVU">
-					<div class="col-sm-4">
-						<img src="img/face-nadal.jpg" class="img-responsive img-circle">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="row video1">
+							<div class="col-sm-4">
+								<img src="img/face-nadal.jpg" class="videos-fotos" alt="rafa">
+							</div>
+
+							<div class="col-sm-4">
+								<img src="img/play-icon.png" class="videos-fotos" alt="play">
+							</div>
+
+							<div class="col-sm-4">
+								<img src="img/face-federer.jpg" class="videos-fotos" alt="federer">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+						<div class="thumbnail">
+							<div class="row video2">
+								<div class="col-sm-4">
+									<img src="img/face-nadal.jpg" alt="rafa">
+								</div>
+	
+								<div class="col-sm-4">
+									<img src="img/play-icon.png" alt="play">
+								</div>
+	
+								<div class="col-sm-4">
+									<img src="img/face-federer.jpg" alt="federer">
+								</div>
+							</div>
+						</div>
 					</div>
 
-					<div class="col-sm-4">
-						<img src="img/play-icon.png" class="img-responsive">
-					</div>
-
-					<div class="col-sm-4">
-						<img src="img/face-federer.jpg" class="img-responsive img-circle">
-					</div>
-				</a>
-				<a href="https://www.youtube.com/watch?v=mFIOGpIQtVU">
-					<div class="col-sm-4">
-						<img src="img/face-murray.jpg" class="img-responsive img-circle">
-					</div>
-
-					<div class="col-sm-4">
-						<img src="img/play-icon.png" class="img-responsive">
-					</div>
-
-					<div class="col-sm-4">
-						<img src="img/face-djokovic.jpg" class="img-responsive img-circle">
-					</div>
-				</a>
-
-
-				<a href="https://www.youtube.com/watch?v=mFIOGpIQtVU">
-					<div class="col-sm-4">
-						<img src="img/face-berdych.jpg" class="img-responsive img-circle">
-					</div>
-
-					<div class="col-sm-4">
-						<img src="img/play-icon.png" class="img-responsive">
-					</div>
-
-					<div class="col-sm-4">
-						<img src="img/face-delpotro.jpg" class="img-responsive img-circle">
-					</div>
-				</a>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<div class="row video3">
+									<div class="col-sm-4">
+										<img src="img/face-nadal.jpg" alt="rafa">
+									</div>
+		
+									<div class="col-sm-4">
+										<img src="img/play-icon.png" alt="play">
+									</div>
+		
+									<div class="col-sm-4">
+										<img src="img/face-federer.jpg" alt="federer">
+									</div>
+								</div>
+							</div>
+						</div>
 			</div>
 		</div>
 	</div>
 	</div>
+	<br>
+	<br>
 
-	<!-- <div id="Cargar">
-		<button type="button" class="btn btn-success btn-lg">Cargar Más...</button>
-	</div> -->
+	<!--Footer-->
+	<footer class="page-footer font-small stylish-color-dark pt-4 mt-4" style="background-color: peru">
 
-	<div class="footer fondo">
-		<h4 class="seguirtitulo">Compartir el espíritu del Tenis!!</h4>
-		<ul class="list-inline">
-			<li class="seguirlink">
-				<img class="img-responsive center-block" src="img/facebook.png" alt="facebook logo" id="compface">
-			</li>
-			<li class="seguirlink">
-				<img class="img-responsive center-block" src="img/twitter.png" alt="twitter logo" id="comptw">
-			</li>
-		</ul>
-	</div>
+		<!--Footer Links-->
+		<div class="container text-center text-md-left">
+			<div class="row">
+
+				<!--First column-->
+				<div class="col-md-4">
+					<h4 class="text-uppercase mb-4 mt-3 font-weight-bold">Mantente al dia</h4>
+					<p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing
+						elit.
+					</p>
+				</div>
+			</div>
+			<!--/.Footer Links-->
+
+			<!--Social buttons-->
+			<div class="text-center">
+				<ul class="list-unstyled list-inline">
+
+					<!-- Facebook-->
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm btn-fb mx-1">
+							<i class="fa fa-facebook" style="font-size:48px;color: royalblue"> </i>
+						</a>
+					</li>
+
+					<!-- Twitter-->
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm btn-tw mx-1">
+							<i class="fa fa-twitter" style="font-size:48px;color: dodgerblue"> </i>
+						</a>
+					</li>
+
+					<!-- Google PLus-->
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm btn-gplus mx-1">
+							<i class="fa fa-google-plus" style="font-size:48px;color: red"> </i>
+						</a>
+					</li>
+
+					<!--Linkd IN-->
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm btn-li mx-1">
+							<i class="fa fa-linkedin" style="font-size:48px"> </i>
+						</a>
+					</li>
+
+					<!-- Instagram-->
+					<li class="list-inline-item">
+						<a class="btn-floating btn-sm btn-dribbble mx-1">
+							<i class="fa fa-instagram" style="font-size:48px;color: purple"> </i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--/.Social buttons-->
+
+	</footer>
+	<!--/.Footer-->
+
+	<div class="header">
+			<h2>Scroll Indicator</h2>
+			<div class="progress-container">
+			  <div class="progress-bar" id="myBar"></div>
+			</div> 
+		  </div>
 
 </body>
 
