@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-	crossorigin="anonymous">
+	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,6 +17,9 @@
 </head>
 
 <body>
+	<div id="contenedor_carga">
+		<div id="carga"></div>
+	</div>
 	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top fondo">
 		<div class="container-fluid" style="background-color: lightblue;">
 			<div class="navbar-header">
@@ -70,102 +73,122 @@
 				<li>
 					<a href="#">
 						<span class="glyphicon glyphicon-user"></span> Sign Up</a>
-					</li>
-					<li>
-						<a href="#">
-							<span class="glyphicon glyphicon-log-in"></span> Login</a>
-						</li>
-					</ul>
+				</li>
+				<li>
+					<a href="#">
+						<span class="glyphicon glyphicon-log-in"></span> Login</a>
+				</li>
+			</ul>
 
-				</nav>
-				<br>
-				<br>
-				<div class="container">
-					<H2>2018 Tenis Masculino Ránking Dobles ATP</H2>
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-								<th>POSICION</th>
-								<th>JUGADOR</th>
-								<th>PAIS</th>
-								<th>PUNTOS</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>1</td>
-								<td>MATE PAVIC</td>
-								<td><img src="img/CRO.png" alt="pais"></td>
-								<td>7080</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>LUKASZ KUBOT</td>
-								<td><img src="img/BUL.png" alt="pais"></td>
-								<td>7050</td>
-							</tr>
-							<tr>
-								<td>3</td>
-								<td>MARCELO MELO</td>
-								<td><img src="img/GER.png" alt="pais"></td>
-								<td>7050</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>OLIVER MARACH</td>
-								<td><img src="img/FRA.png" alt="pais"></td>
-								<td>4870</td>
-							</tr>
-							<tr>
-								<td>5</td>
-								<td>BOB BRYAN</td>
-								<td><img src="img/USA.png" alt="pais"></td>
-								<td>4770</td>
-							</tr>
-							<tr>
-								<td>6</td>
-								<td>MYKE BRYAN</td>
-								<td><img src="img/USA.png" alt="pais"></td>
-								<td>4540</td>
-							</tr>
-							<tr>
-								<td>7</td>
-								<td>JOHN PEERS</td>
-								<td><img src="img/AUS.png" alt="pais"></td>
-								<td>4320</td>
-							</tr>
-							<tr>
-								<td>8</td>
-								<td>HENRI KONTINEN</td>
-								<td><img src="img/RUS.png" alt="pais"></td>
-								<td>4015</td>
-							</tr>
-							<tr>
-								<td>9</td>
-								<td>JEAN-JULIEN ROJER</td>
-								<td><img src="img/NED.png" alt="pais"></td>
-								<td>3385</td>
-							</tr>
-							<tr>
-								<td>10</td>
-								<td>JUAN SEBASTIAN CABAL</td>
-								<td><img src="img/ARG.png" alt="pais"></td>
-								<td>3370</td>
-							</tr>
+	</nav>
+	<br>
+	<br>
+	<div class="container">
+		<H2>2018 Tenis Masculino Ránking Dobles ATP</H2>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th class="text-center">POSICION</th>
+					<th class="text-center">JUGADOR</th>
+					<th class="text-center">PAIS</th>
+					<th class="text-center">PUNTOS</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>MATE PAVIC</td>
+					<td>
+						<img src="img/CRO.png" alt="pais">
+					</td>
+					<td>7080</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>LUKASZ KUBOT</td>
+					<td>
+						<img src="img/BUL.png" alt="pais">
+					</td>
+					<td>7050</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>MARCELO MELO</td>
+					<td>
+						<img src="img/GER.png" alt="pais">
+					</td>
+					<td>7050</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>OLIVER MARACH</td>
+					<td>
+						<img src="img/FRA.png" alt="pais">
+					</td>
+					<td>4870</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>BOB BRYAN</td>
+					<td>
+						<img src="img/USA.png" alt="pais">
+					</td>
+					<td>4770</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>MYKE BRYAN</td>
+					<td>
+						<img src="img/USA.png" alt="pais">
+					</td>
+					<td>4540</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>JOHN PEERS</td>
+					<td>
+						<img src="img/AUS.png" alt="pais">
+					</td>
+					<td>4320</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>HENRI KONTINEN</td>
+					<td>
+						<img src="img/RUS.png" alt="pais">
+					</td>
+					<td>4015</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>JEAN-JULIEN ROJER</td>
+					<td>
+						<img src="img/NED.png" alt="pais">
+					</td>
+					<td>3385</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>JUAN SEBASTIAN CABAL</td>
+					<td>
+						<img src="img/ARG.png" alt="pais">
+					</td>
+					<td>3370</td>
+				</tr>
 
-						</tbody>
-					</table>
-				</div>
+			</tbody>
+		</table>
+	</div>
 
-				<div class="container">
-					<h3>Update Ranking</h3>
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bAc_Oy0Hx0o"></iframe>
-					</div>
-				</div>
+	<div class="container">
+		<h3>Update Ranking</h3>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bAc_Oy0Hx0o"></iframe>
+		</div>
+	</div>
 
 
 
-			</body>
+</body>
 
-			</html>
+</html>
