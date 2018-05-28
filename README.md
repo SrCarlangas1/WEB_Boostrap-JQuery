@@ -27,3 +27,6 @@ En los rankings poner la clase .table-bordere para las tablas
 
 ## 1.3
 En la página de noticias y en la de presentación agregar un anuncio en el cual son 3 imagenes que se van rotando cada 2 segundos
+
+## 1.4
+Que carguen las noticias con un evento scroll y hacer el documento rss
