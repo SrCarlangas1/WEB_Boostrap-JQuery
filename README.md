@@ -15,3 +15,15 @@ y tendrán una composición de cada 2 noticias
 -------------------------------------------------------------------------------------------------------
 
 # Versiones(Actualizaciones)
+
+## 1.0
+Video de Presentación en la página de inicio
+
+## 1.1
+Implementación de un scroll bar indicator que consiste en una barra horizontal en cual te indica a que altura de la pagina estás
+
+## 1.2
+En los rankings poner la clase .table-bordere para las tablas
+
+## 1.3
+En la página de noticias y en la de presentación agregar un anuncio en el cual son 3 imagenes que se van rotando cada 2 segundos
