@@ -30,3 +30,9 @@ En la página de noticias y en la de presentación agregar un anuncio en el cual
 
 ## 1.4
 Que carguen las noticias con un evento scroll y hacer el documento rss
+
+
+----------------------------------------------------------------------------------------------------------
+
+# Imagen de muestra
+![WEB](https://github.com/Soontrax/WEB_Boostrap-JQuery/blob/master/img/WEB.jpg)
